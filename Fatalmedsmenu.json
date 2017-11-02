@@ -7,7 +7,7 @@
         "$load": {
           "type": "$network.request",
           "options": {
-            "url": "https://raw.githubusercontent.com/twenty4k/Feed-Application/master/fatalmeds.json"
+            "url": "https://raw.githubusercontent.com/twenty4k/Medicated-Feed-JASON-App/master/fatalmeds.json"
           },
           "success": {
             "type": "$render"
@@ -22,7 +22,7 @@
           "header": {
             "title": "Fatal Medication & Species Combination",
             "menu": {
-              "text": "21 CFR ง558.515",
+              "text": "21 CFR ยง558.515",
               "href": {
                 "url": "http://api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&link-type=xml",
                 "view": "web"
